@@ -1,0 +1,25 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "Proyecto sobre dependencias con node",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RogerSDlaR/Crud-Estudiantes-js.git"
+  },
+  "author": "RogerS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RogerSDlaR/Crud-Estudiantes-js/issues"
+  },
+  "homepage": "https://github.com/RogerSDlaR/Crud-Estudiantes-js#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "readline-sync": "^1.4.10"
+  }
+}

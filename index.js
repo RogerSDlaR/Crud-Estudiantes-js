@@ -63,7 +63,7 @@ function mostrarMenu() {
 
 while (true) {
   mostrarMenu();
-  const opcion = readlineSync.question("Seleccione una opción: ");
+  const opcion = readlineSync.question("Seleccione una opcion: ");
 
   if (opcion === "1") {
     const nombre = readlineSync.question("Nombre: ");
